@@ -83,6 +83,7 @@
             <p><a class="btn btn-secondary" href="#" role="button"> View Menu &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
+	  </div>
 
 
         <!-- START THE FEATURETTES -->
@@ -112,19 +113,35 @@
         </div>
 
         <hr class="featurette-divider">
+	
+		<div class="Feedbackcontainer">
+		<h2 class="FeedbackHeading">Provide Feedback</h2>
+			<p class="SignUpdescription">Provide feedback and sign up to our mailing list to recieve updates.</p> 
+  <form action="action_page.php">
 
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="https://via.placeholder.com/500x500" alt="Generic placeholder image">
-          </div>
-        </div>
-		  </div>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-        <hr class="featurette-divider">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	  
+	<label for="email">Email</label>
+	  <input type="text" id="email" placeholder="your email">
+	  
+	  <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject(not necessary)</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 
         <!-- /END THE FEATURETTES -->
 
