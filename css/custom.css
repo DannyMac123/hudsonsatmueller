@@ -20,7 +20,13 @@ body {
 }
 
 .col-lg-4 {
-	
+	align-content: center;
 }
+
+.rounded-circle {
+	align-content: center;
+}
+
+ 
 	
 
