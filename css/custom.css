@@ -4,14 +4,23 @@ body {
   background: #FFFFFF;
 }
 
-.headingphoto {
-	border-bottom: 10px medium red!important;
-	padding-bottom: 10px;
+.welcomephoto {
+	padding-top: 40px;
+	border-bottom: medium ridge red;
+	max-width: 100%;
+	height: auto
+	
 }
+	
 
 .Heading {
-	align-content: center;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
+.col-lg-4 {
 	
+}
 	
+
