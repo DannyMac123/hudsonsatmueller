@@ -18,6 +18,10 @@ body {
 	padding: 50px;
 }
 
+.description {
+	font-size: 20px;
+}
+
 .rounded-circle {
 	align-content: center;
 }
